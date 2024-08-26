@@ -15,6 +15,11 @@
 - **BugFixer:** Automatically identify and fix bugs in Python code.
 - **UnitTestGenerator:** Generate unit tests for Python code to ensure correctness.
 
+## PyPi Package Link
+
+Please check the package on PyPi to get the latest version and more information about the package.
+[https://pypi.org/project/fawern/](https://pypi.org/project/fawern/)
+
 ## Installation
 
 You can install Fawern using pip:
@@ -34,7 +39,7 @@ from fawern import ChatPython
 
 assistant = ChatPython()
 
-prompt = '''Create a snake game using Pygame. Include a snake that moves around the screen and eats food. Display the score and end the game when the snake collides with the wall or itself. Use arrow keys to control the snake' movement '''
+prompt = "Create a snake game using Pygame in Python. The snake should move with the arrow keys, grow when it eats food, and the game should end if it collides with the walls or itself. Display the current score during gameplay and the final score when the game ends."
 
 code = assistant.generate_code(prompt)
 
