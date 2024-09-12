@@ -71,13 +71,26 @@ print(process_data(data))
 
 # Analyze the code for potential improvements
 analysis = analyzer.analyze_code(code)
+
+# Analyze the python file for potential improvements
+analysis = analyzer.analyze_code("path/to/python/file.py")
+
 print("Analysis Report:\n", analysis)
 
 # Fix detected issues and suggest improvements
 fixed_code = analyzer.find_syntax_errors(code)
+
+# Fix detected issues and suggest improvements for the python file
+fixed_code = analyzer.find_syntax_errors("path/to/python/file.py")
+
 print("\nFixed Code:\n", fixed_code)
 
+# Suggest optimizations for the fixed code
 optimizations = analyzer.suggest_optimizations(fixed_code)
+
+# Suggest optimizations for the fixed python file
+optimizations = analyzer.suggest_optimizations("path/to/fixed/python/file.py")
+
 print("\nOptimized Code:\n", optimizations)
 ```
 
@@ -103,6 +116,10 @@ print  ( calculateArea  (a,  b ) )
 
 # Format the code
 formatted_code = formatter.format_code(code)
+
+# Format the python file
+formatted_code = formatter.format_code("path/to/python/file.py")
+
 print("Formatted Code:\n", formatted_code)
 ```
 
@@ -129,6 +146,7 @@ TypeError: 'str' object is not callable
 
 # Analyze logged errors and get suggestions
 analysis = error_analyzer.analyze_errors(error_message)
+
 print("Error Analysis:\n", analysis)
 ```
 
@@ -157,6 +175,10 @@ def scrape_website(url):
 
 # Review the code
 review = reviewer.review_code(code)
+
+# Review the python file
+review = reviewer.review_code("path/to/python/file.py")
+
 print("Code Review:\n", review)
 ```
 
@@ -190,6 +212,10 @@ class Calculator:
 
 # Generate docstrings and inline comments
 documentation = doc_generator.generate_docstrings(code)
+
+# Generate docstrings and inline comments for the python file
+documentation = doc_generator.generate_docstrings("path/to/python/file.py")
+
 print("Generated Documentation:\n", documentation)
 ```
 
@@ -218,6 +244,10 @@ int main() {
 
 # Convert C++ code to Python
 python_code = converter.convert_code(cpp_code)
+
+# Convert code from a file
+python_code = converter.convert_code("path/to/cpp/file.cpp")
+
 print("Converted Python Code:\n", python_code)
 ```
 
@@ -260,6 +290,10 @@ class Circle(Shape):
 
 # Visualize the class hierarchy
 visualization = visualizer.visualize_code(code)
+
+# Visualize the class hierarchy for the python file
+visualization = visualizer.visualize_code("path/to/python/file.py")
+
 print("Class Diagram:\n", visualization)
 ```
 
@@ -283,6 +317,10 @@ print(divide_numbers(10, 0))
 
 # Fix bugs in the code
 fixed_code = bug_fixer.fix_bugs(code)
+
+# Fix bugs in the python file
+fixed_code = bug_fixer.fix_bugs("path/to/python/file.py")
+
 print("Fixed Code:\n", fixed_code)
 ```
 
@@ -304,6 +342,10 @@ def multiply(a, b):
 
 # Generate unit tests for the code
 unit_tests = test_generator.generate_tests(code)
+
+# Generate unit tests for the python file
+unit_tests = test_generator.generate_tests("path/to/python/file.py")
+
 print("Generated Unit Tests:\n", unit_tests)
 ```
 
