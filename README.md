@@ -41,7 +41,7 @@ assistant = ChatPython()
 
 prompt = "Create a snake game using Pygame in Python. The snake should move with the arrow keys, grow when it eats food, and the game should end if it collides with the walls or itself. Display the current score during gameplay and the final score when the game ends."
 
-code = assistant.generate_code(prompt, run_code=True)
+code = assistant.generate_code(prompt, write_code_to_file=True, run_code=True)
 
 print(code)
 ```
