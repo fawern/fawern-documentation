@@ -1,3 +1,5 @@
+
+
 # fawern
 
 **fawern** is a Python library designed to assist developers with various AI-powered tools for code generation, analysis, refactoring, and more. It utilizes advanced models from multiple providers (Groq, OpenAI, and more) to provide a wide range of functionalities, from generating Python code based on prompts to analyzing and fixing code, generating documentation, and even converting code from other languages to Python.
@@ -46,6 +48,8 @@ GROQ_API_KEY=your_groq_api_key_here
 # For OpenAI
 OPENAI_API_KEY=your_openai_api_key_here
 ```
+
+You can optionally override the default provider with `FAWERN_AI_PROVIDER` (for example, `groq` or `openai`).
 
 ## Usage
 
